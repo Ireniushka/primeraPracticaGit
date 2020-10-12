@@ -16,6 +16,9 @@ class DatabaseSeeder extends Seeder
         factory(\App\tut_lab::class,20)->create();
         factory(\App\tut_doc::class,20)->create();
         factory(\App\ciclo::class,20)->create();
+        factory(\App\fecha::class,20)->create();
+        factory(\App\alumno::class,20)->create();
+    
 
     }
 }
